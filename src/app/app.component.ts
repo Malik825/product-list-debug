@@ -5,7 +5,7 @@ import { AddToCartComponent } from "./components/add-to-cart/add-to-cart.compone
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'], // ✅ plural and correct
+  styleUrls: ['./app.component.scss'],
   standalone: true,
   imports: [AddToCartComponent],
 })
