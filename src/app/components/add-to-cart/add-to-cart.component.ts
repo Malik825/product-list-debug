@@ -1,5 +1,4 @@
 import { Component, Input, signal, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { CartServiceService } from '../../services/cart-service.service';
 import { Dessert } from '../../models/types';
 import { ToastrService } from 'ngx-toastr';
@@ -9,7 +8,6 @@ import { ToastrService } from 'ngx-toastr';
   standalone: true,
   templateUrl: './add-to-cart.component.html',
   styleUrls: ['./add-to-cart.component.scss'],
-  imports: [CommonModule],
 })
 export class AddToCartComponent implements OnInit {
   @Input() product: Dessert | null = null;
