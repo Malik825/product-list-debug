@@ -35,9 +35,10 @@ private scrollToTopOrBottom() {
 
   if (width >= 1024) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  } else if (width >= 768 && width < 1024) {
+  } else if (width <= 768 && width < 1024) {
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
   }
+  
 }
 
 
