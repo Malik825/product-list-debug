@@ -13,7 +13,7 @@ import { Dessert } from './models/types';
   styleUrls: ['./app.component.scss'],
   standalone: true,
   imports: [
-   
+    NavbarComponent,
     ProductListComponent,
     CartComponent
 ]
